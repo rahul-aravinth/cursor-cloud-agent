@@ -1,0 +1,10 @@
+# .cursorignore — same syntax as .gitignore.
+# Patterns here limit what Cursor indexes and what AI features can access by default.
+# Docs: https://cursor.com/docs/reference/ignore-file
+
+# Example: exclude local secrets or large artifacts (uncomment and adjust for your project)
+# .env
+# .env.*
+# node_modules/
+# dist/
+# *.log
