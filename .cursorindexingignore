@@ -1,0 +1,7 @@
+# .cursorindexingignore — gitignore-style patterns excluded from codebase indexing/search only.
+# Files may still be openable or @-mentioned; they just won't pollute search/index size.
+# Docs: https://cursor.com/docs/reference/ignore-file
+
+# Example (uncomment if you add these paths later):
+# vendor/
+# **/*.min.js

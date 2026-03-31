@@ -1,0 +1,19 @@
+---
+# Frontmatter controls how Cursor attaches this rule (Agent Chat only).
+# description: Shown to the model for "Apply intelligently" style rules.
+description: Sample rule for markdown and agent-instruction files in this repo.
+# globs: When non-empty, can scope the rule to matching paths (see Cursor Rules docs).
+globs:
+  - "README.md"
+  - "AGENTS.md"
+  - ".cursor/**"
+# alwaysApply: If true, prepended every session; if false, Cursor uses description/globs/manual @mention.
+alwaysApply: false
+---
+
+# Sample project rule
+
+When editing project docs or `.cursor` samples:
+
+- Keep examples **valid** (JSON must parse; shell hooks must be executable if enabled).
+- Prefer linking to [Cursor docs](https://cursor.com/docs) instead of duplicating full hook schemas here.
